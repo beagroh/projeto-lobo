@@ -10,3 +10,16 @@ $ git init
 ```bash
 $ git remote add origin https://github.com/beagroh/bikcraft.git
 ```
+### Sempre que houverem novas alterações, fazer o passo a passo abaixo:
+- Adicionar os arquivos no `staged`:
+```bash
+$ git add .
+```
+- Commitar as alterações:
+```bash
+$ git commit -m "Mensagem do commit"
+```
+- Dar o push para enviar os arquivos para o Git:
+```bash
+$ git push origin master
+```
