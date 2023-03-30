@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-introducao h1 {
+.introducao h1 {
     font-size: 4.5rem;
     line-height: 1.125;
     margin-bottom: 30px;
@@ -21,6 +21,7 @@ introducao h1 {
     width: 130px;
     height: 100px;
     background: url('../img/detalhe.svg') no-repeat center;
+    position: absolute;
     top: -15px;
     left: -40px;
     z-index: -1;
@@ -32,13 +33,13 @@ introducao h1 {
 }
 
 @media (max-width: 1000px) {
-    inreoducao h1 {
+    .introducao h1 {
         font-size: 3rem;
     }
 }
 
 @media (max-width: 800px) {
-    introducao {
+    .introducao {
         grid-template-columns: 1fr 1fr;
         gap: 40px;
     }
@@ -48,7 +49,7 @@ introducao h1 {
     font-size: 2rem;
 }
 
-introducao h1::before {
+.introducao h1::before {
     width: 30px;
     height: 10px;
     left: 0px;
