@@ -7,7 +7,6 @@
 $ git init
 ```
 - Adicionar o repositório do git na pasta:
-```bash
 $ git remote add origin https://github.com/beagroh/bikcraft.git
 ```
 ### Sempre que houverem novas alterações, fazer o passo a passo abaixo:
